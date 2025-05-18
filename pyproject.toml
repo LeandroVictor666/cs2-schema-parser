@@ -1,0 +1,12 @@
+[project]
+name = "CS2-Schema-Parser"
+version = "1.0.0.0"
+description = "Converts/Parse CS2 schema dumps to C++ classes/structs"
+authors = [{ name = "l666.eth0", email = "l666.eth0@gmail.com" }]
+license = "MIT"
+readme = "readme.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+cs2-schema-parser = "schema_parser.cli:main"

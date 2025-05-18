@@ -40,6 +40,12 @@ pip install .
 cs2-schema-parser <path_to_dumped_file> [params]
 ````
 
+if you need help
+
+````bash
+cs2-schema-parser --help
+````
+
 ---
 
 #### Contact
